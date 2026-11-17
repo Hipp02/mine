@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./app",
+    "paths": {
+      "~*": ["./*"]
+    },
+    "lib": ["ES2016", "DOM"],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "include": ["app/**/*"]
+}
